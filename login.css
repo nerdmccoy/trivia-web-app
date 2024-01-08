@@ -1,0 +1,90 @@
+* { 
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-section {
+    display: flex;
+    /* background-color: pink; */
+    height: 100vh;
+}
+.container {
+    width: 50%;
+    
+}
+.welcome {
+background-color: blue;
+}
+.form {
+    /* background-color: aqua; */
+    padding: 1em;
+}
+.login-text {
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(179, 179, 179);
+}
+.login-text div {
+    display: flex ;
+    gap: 1em;
+    align-items: center;
+}
+.login-text div button {
+    padding: 0.5em 1.5em;
+    border-radius: 6em;
+    color: rgb(179, 179, 179);
+     border: 1px solid rgb(179, 179, 179);
+     background: transparent;
+}
+.text-container {
+    /* background-color: brown; */
+    margin-top: 2em;
+    padding: 0 6em;
+}
+.text-container h1 {
+    font-size: 28px;
+}
+.text-container p {
+    font-size: 16px ;
+    color: rgb(179, 179, 179);
+    margin: 0.5em 0 1em 0 ;
+}
+.text-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.text-container form input {
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid  rgb(179, 179, 179);
+
+
+}
+.password-container {
+    /* background-color: brown; */
+    display: flex;
+    gap: 1em;
+    align-items: center;
+     border: 1px solid  rgb(179, 179, 179);
+     border-radius: 5px;
+
+}
+.password-container div {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+.password-container input[type="password"] {
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+form input[type="submit"] {
+width: 30%;
+border-radius: 6em;
+}
