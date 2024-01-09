@@ -1,0 +1,31 @@
+* body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+select, button {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px;
+}
